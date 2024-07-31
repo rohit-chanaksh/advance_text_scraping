@@ -20,6 +20,10 @@ def removeExtra(itration):
 # all_art = books
 all_art = bSoup.find_all('article', attrs='product_pod')
 
+# for b in all_art :
+#     print('////////////////')
+#     print(b)
+
 # print(all_art[0].h3.a.attrs['title'])
 
 def Num_Converter(num_text ) :
@@ -60,3 +64,6 @@ for b in all_art :
     books_data.append(B_TRP)
 
 print(books_data)
+
+# for bd in book_data :
+#     print(bd)
