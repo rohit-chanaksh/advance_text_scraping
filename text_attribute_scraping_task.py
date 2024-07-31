@@ -18,7 +18,7 @@ def removeExtra(itration):
     return list(filter(lambda x: type(x) != NavigableString, itration))
 
 # all_art = books
-all_art = bSoup.find_all('article', class_='product_pod')
+all_art = bSoup.find_all('article', attrs='product_pod')
 
 # print(all_art[0].h3.a.attrs['title'])
 
