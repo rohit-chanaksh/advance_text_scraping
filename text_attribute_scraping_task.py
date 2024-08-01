@@ -10,7 +10,7 @@ THeader = {
 
 TResp = rq.get(url=TUrl, headers=THeader)
 
-print(TResp.status_code)  # Check if the request was successful
+print(TResp.status_code)
 
 bSoup = BeautifulSoup(TResp.content, 'html.parser')
 
